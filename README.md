@@ -1,2 +1,2 @@
 # tep-strings-24.2
-String stuff for cp.
+Repositório para armazenar códigos para resolução de problemas envolvendo Strings.
