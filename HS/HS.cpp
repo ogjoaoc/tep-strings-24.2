@@ -2,12 +2,13 @@
 using namespace std;
 using ll = long long;
 
-const ll p = 31; 
-const ll q = 1e9 + 7; 
+const ll p = 911382323; 
+const ll q = 972663749; 
 
 int f(char c) {
   return c - 'a' + 1;  // 'a' -> 1, 'b' -> 2, ..., 'z' -> 26
 }
+
 void precompute(const string& s, vector<ll>& ps, vector<ll>& powers) {
   int N = s.size();
   ps.resize(N + 1, 0);
